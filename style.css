@@ -197,12 +197,16 @@ iframe {
 	place-items: center;
 	height: 100vh;
 }
+.description {
+	display: block;
+	text-align: center;
+}
 
 .gallery {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 16px;
-	max-width: 900px;
+	max-width: 800px;
 }
 
 .card {
