@@ -40,12 +40,15 @@ iframe {
 	width: 100%;
 	height: 100%;
 }
-@media (max-width: 700px) {
+@media (max-width: 900px) {
 	.wrap {
 		flex-wrap: wrap;
 		align-items: flex-start;
 		align-content: flex-start;
 		height: 100vh;
+	}
+	.left {
+		height: 50vh;
 	}
 }
 .map {
@@ -197,6 +200,12 @@ iframe {
 	text-align: center;
 	padding: 5px 30px;
 }
+button {
+	margin: 20px;
+	width: 60px;
+	height: 30px;
+	border-radius: 12px;
+}
 
 .background {
 	background-color: var(--background);
@@ -209,7 +218,7 @@ iframe {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 16px;
-	max-width: 600px;
+	max-width: 700px;
 }
 
 .card {
@@ -224,8 +233,34 @@ iframe {
 	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
 	flex: 0.3;
 
-	width: 200px;
-	height: 70vh;
+	width: 350px;
+	height: 60vh;
+}
+@media (max-width: 1000px) {
+	.gallery {
+		width: 600px;
+	}
+}
+@media (max-width: 800px) {
+	.gallery {
+		width: 500px;
+	}
+}
+@media (max-width: 600px) {
+	.gallery {
+		width: 400px;
+	}
+	/* .cadr {
+		height: 10vh;
+	} */
+	.left {
+		height: 55vh;
+	}
+}
+@media (max-width: 400px) {
+	.left {
+		height: 55vh;
+	}
 }
 
 .card img {
