@@ -186,3 +186,45 @@ iframe {
 .elHielo {
 	clip-path: polygon(12% 59%, 12% 59%, 10% 62%, 8% 61%, 8% 64%, 9% 64%, 11% 66%, 11% 63%, 13% 59%);
 }
+
+:root {
+	--background: #3c343d;
+}
+
+.background {
+	background-color: var(--background);
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 16px;
+	max-width: 900px;
+}
+
+.card {
+	position: relative;
+	left: 0px;
+	width: 600px;
+	border-radius: 16px;
+	height: 600px;
+	overflow: hidden;
+	background-color: var(--background);
+	transition: 0.4s ease-in-out;
+	box-shadow: 0 5px 12px rgba(0, 0, 0, 0.5);
+	flex: 0.25;
+}
+
+.card img {
+	height: 600px;
+}
+
+.card:hover {
+	flex: 2;
+	font-weight: bold;
+	cursor: pointer;
+	border-radius: 8px;
+}
