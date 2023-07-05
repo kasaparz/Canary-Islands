@@ -207,21 +207,21 @@ button {
 	border-radius: 12px;
 }
 
-.background {
+.lanza_background {
 	background-color: var(--background);
 	display: grid;
 	place-items: center;
 	height: 100vh;
 }
 
-.gallery {
+.lanza_gallery {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 16px;
 	max-width: 700px;
 }
 
-.card {
+.lanza_card {
 	position: relative;
 	left: 0px;
 
@@ -237,17 +237,17 @@ button {
 	height: 60vh;
 }
 @media (max-width: 1000px) {
-	.gallery {
+	.lanza_gallery {
 		width: 600px;
 	}
 }
 @media (max-width: 800px) {
-	.gallery {
+	.lanza_gallery {
 		width: 500px;
 	}
 }
 @media (max-width: 600px) {
-	.gallery {
+	.lanza_gallery {
 		width: 400px;
 	}
 	/* .cadr {
@@ -263,11 +263,11 @@ button {
 	}
 }
 
-.card img {
+.lanza_card img {
 	height: 100%;
 }
 
-.card:hover {
+.lanza_card:hover {
 	flex: 4;
 	font-weight: bold;
 	cursor: pointer;
