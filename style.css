@@ -279,18 +279,20 @@ button {
 
 /*------------fuerte-------*/
 
-body {
-	height: 100vh;
-}
-
-.fuerte_background {
+/* .fuerte_background {
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: start;
 	align-items: center;
 	background-color: blue;
-	height: 100%;
+	height: 100vh;
+} */
+.fuerte_background {
+	background-color: var(--background);
+	display: grid;
+	place-items: center;
+	height: 100vh;
 }
 
 .fuerte_container {
